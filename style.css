@@ -1,0 +1,53 @@
+body .link-block-collapsable {
+    display: none;
+}
+
+body .link-block-collapsable.show {
+    display: flex;
+}
+
+.arrow-bottom-clip {
+    display: inline-block;
+    clip-path: polygon(20% 50%, 50% 80%, 80% 50%, 100% 50%, 50% 100%, 0% 50%);
+    background: #999;
+    padding: 6px;
+}
+
+.linkblock-trigger-area {
+    text-align: left;
+}
+
+.link-list {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.link-item {
+    margin: 0;
+    list-style: none;
+    text-align: left;
+}
+
+.link-item:first-child a {
+    font-weight: 700;
+    line-height: 1.7;
+    white-space: wrap;
+    margin-bottom: 10px;
+}
+
+.links-block .link-list .link-item a {
+    color: #333;
+    line-height: 1.7;
+}
+
+.link-item a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.single-line {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+}
